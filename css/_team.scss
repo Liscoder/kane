@@ -1,0 +1,19 @@
+.team{
+	@include background(#27ad60);
+	color:white;
+	text-align:center;
+	h5{
+		color:black;
+	}
+	.description{
+		border-top:2px dashed #a7a3a3;
+		padding:2% 0;
+		color:#a7a3a3;
+		i{
+			margin:2% 3%;
+			font-size:20px;
+		}
+	}
+
+
+}
