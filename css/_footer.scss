@@ -1,0 +1,24 @@
+footer{
+	@include background(#27ad60);
+	color:white;
+	text-align:center;
+	.form-group{
+		width:80%;
+		.span{
+			background-color: black;
+		}
+		.submit{
+			background-color:black;
+		}
+	}
+	.f-right{
+		float:right;
+	}
+	.f-left{
+		float:left;
+	}
+}
+.btn-submit{
+	background-color:black;
+	color:white;
+}

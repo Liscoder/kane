@@ -163,6 +163,13 @@
   .about-us .agency img {
     width: 100%; }
 
+.contact-us {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 3% 0;
+  margin: auto; }
+
 .what {
   background-color: #27ad60;
   color: white;
@@ -197,19 +204,17 @@
     color: white;
     padding: 1%; }
 
-.team {
+.donec {
   background-color: #27ad60;
   color: white;
-  text-align: center; }
-  .team h5 {
-    color: black; }
-  .team .description {
-    border-top: 2px dashed #a7a3a3;
-    padding: 2% 0;
-    color: #a7a3a3; }
-    .team .description i {
-      margin: 2% 3%;
-      font-size: 20px; }
+  text-align: center;
+  padding: 3% 0; }
+  .donec .row .lorem {
+    width: 80%;
+    margin: auto;
+    text-align: center; }
+    .donec .row .lorem a {
+      color: orange; }
 
 .service {
   background-color: #2c3e50;
@@ -228,6 +233,53 @@
         color: white; }
       .service .panel-primary .table .active {
         color: #2c3e50; }
+
+.team {
+  background-color: #27ad60;
+  color: white;
+  text-align: center; }
+  .team h5 {
+    color: black; }
+  .team .description {
+    border-top: 2px dashed #a7a3a3;
+    padding: 2% 0;
+    color: #a7a3a3; }
+    .team .description i {
+      margin: 2% 3%;
+      font-size: 20px; }
+
+.social {
+  background: url("../img/img-divider-img.jpg") no-repeat;
+  padding: 12%;
+  text-align: center; }
+  .social ul {
+    list-style: none; }
+    .social ul li {
+      display: inline-block;
+      padding: 5% 0; }
+      .social ul li i {
+        font-size: 120px;
+        color: white;
+        text-align: center; }
+
+footer {
+  background-color: #27ad60;
+  color: white;
+  text-align: center; }
+  footer .form-group {
+    width: 80%; }
+    footer .form-group .span {
+      background-color: black; }
+    footer .form-group .submit {
+      background-color: black; }
+  footer .f-right {
+    float: right; }
+  footer .f-left {
+    float: left; }
+
+.btn-submit {
+  background-color: black;
+  color: white; }
 
 body {
   font-family: 'roboto';

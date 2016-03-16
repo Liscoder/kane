@@ -1,0 +1,17 @@
+.donec{
+	@include background(#27ad60);
+	color:white;
+	text-align:center;
+	padding:3% 0;
+	.row{
+		.lorem{
+			width:80%;
+			margin:auto;
+			text-align: center;
+			a{
+				color:orange;
+			}
+		}
+	}
+	
+}
