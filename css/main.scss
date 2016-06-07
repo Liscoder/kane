@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import 'mixins';
+@import 'about';
+@import 'contact';
+@import 'facts';
+@import 'what';
+@import 'price';
+@import 'team';
+@import 'service';
+@import 'footer';
+body{
+	font-family:'roboto';
+	font-weight:300;
+}
+
+nav,.navbar{
+	background-color:#27ad60;
+	margin-bottom:0;
+	.navbar-right{
+		padding-top:30px;
+			li.active,li:focus {
+			border:0;
+		    background-color: rgba(234,130,6,1);
+		    color:white;
+
+		}
+	}
+}
+.carousel-inner{
+	.item{
+		img{
+			height:650px;
+		}
+	}
+}
+.nav li a:hover{
+	background-color:rgba(234,130,6,1);
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align:center;
+}

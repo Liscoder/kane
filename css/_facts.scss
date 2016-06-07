@@ -1,0 +1,42 @@
+.what{
+	@include background(#27ad60);
+	color:white;
+	text-align:center;
+	padding:7% 0;
+}
+.webdesign{
+	background-color:rgba(78,78,101,0.37);
+	width:70%;
+	margin:auto;
+	margin-top:4%;
+
+}
+.divider{
+		display:none;
+	}
+.web:hover{
+	background-color:rgba(78,78,101,0.37);
+	padding:10% 0;
+
+		.webdesign{
+			background-color:orange;
+			
+			img{
+			transform:rotate(45deg);
+			transition-duration: 3s;
+				}
+			}
+		.divider{
+			display:block;
+		}
+		
+}
+.hire{
+	margin:auto;
+	button{
+		margin-top:10%;
+		background-color:black;
+		color:white;
+		padding:1%;
+	}
+}
